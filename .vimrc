@@ -1,3 +1,6 @@
+" initialization
+source $VIMRUNTIME/defaults.vim
+
 if has("syntax")
   syntax on;
 endif
@@ -66,8 +69,7 @@ set smartindent
 set textwidth=80
 " break lines when line length increases
 
-set nu 
-"rnu
+set nu rnu
 " show line number on left and show relative line numbers 
 
 " cursor settings starts.
